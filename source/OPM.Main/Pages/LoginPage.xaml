@@ -1,0 +1,41 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:prism="http://prismlibrary.com/"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="OPM.Pages.LoginPage"
+             prism:ViewModelLocator.AutoWireViewModel="True"
+             FontFamily="Microsoft YaHei,Simsun,苹方-简,宋体-简">
+
+  <StackPanel Margin="{StaticResource PageMargin}" Background="Transparent"
+              Orientation="Horizontal"
+              Spacing="40">
+    
+    
+    <StackPanel.Styles>
+      <Style Selector="TextBlock.header">
+        <Setter Property="Margin" Value="0 30 0 20" />
+      </Style>
+    </StackPanel.Styles>
+    
+  
+    <StackPanel Width="265">
+      <TextBlock
+          Text="账号" Margin="0 20 0 10"
+          Classes="header" />
+      <TextBox  Watermark="username" Text="{Binding username}"   />
+      <TextBlock
+          Text="密码" Margin="0 0 0 10"
+          Classes="header" />
+      <TextBox Watermark="password" PasswordChar="*" Margin="0,17,0,0" Text="{Binding password}"  />
+
+      <Button Margin="0,50,0,0" Content="Show Dashboard" Command="{Binding CommandShowDashboard}"  FontFamily="{StaticResource PingFangFamily}" />
+
+    </StackPanel>
+    <Separator Background="BlanchedAlmond"></Separator>
+    <StackPanel Width="265">
+      <Button Margin="0,50,0,0" Content="应用" Background="BlueViolet" Command="{Binding ApplyNewToken}" IsVisible="{Binding NewToken,Converter={x:Static StringConverters.IsNotNullOrEmpty}}" />
+    </StackPanel>
+  </StackPanel>
+</UserControl>
