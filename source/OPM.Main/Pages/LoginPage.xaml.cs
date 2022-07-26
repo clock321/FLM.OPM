@@ -1,7 +1,7 @@
 ﻿using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
-using OPM.Common;
+using OPM.Core;
 using OPM.PageModels;
 
 namespace OPM.Pages

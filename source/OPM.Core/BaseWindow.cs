@@ -5,7 +5,7 @@ using ReactiveUI;
 using PropertyChanged;
 
 
-namespace OPM.Common
+namespace OPM.Core
 {
   [DoNotNotifyAttribute]
   public class BaseWindow<TViewModel> : ReactiveWindow<TViewModel> where TViewModel : class

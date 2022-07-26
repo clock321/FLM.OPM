@@ -4,7 +4,7 @@ using System.Linq;
 using System.Reactive.Linq;
 
 
-namespace OPM.Common
+namespace OPM.Core
 {
   /// <summary>
   /// Observable 扩展

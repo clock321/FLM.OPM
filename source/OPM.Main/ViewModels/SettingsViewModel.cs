@@ -1,5 +1,5 @@
 ﻿using Prism.Regions;
-using OPM.Common;
+using OPM.Core;
 using MediatR;
 
 namespace OPM.ViewModels

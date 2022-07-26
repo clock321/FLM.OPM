@@ -419,7 +419,7 @@ D:\ZybDev\FLM.OPM\source\OPM.Main\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.
 D:\ZybDev\FLM.OPM\source\OPM.Main\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\ZybDev\FLM.OPM\source\OPM.Main\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\ZybDev\FLM.OPM\source\OPM.Main\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-D:\ZybDev\FLM.OPM\source\OPM.Main\bin\Debug\net6.0\OPM.Common.dll
+D:\ZybDev\FLM.OPM\source\OPM.Main\bin\Debug\net6.0\OPM.Core.dll
 D:\ZybDev\FLM.OPM\source\OPM.Main\bin\Debug\net6.0\OPM.Data.dll
 D:\ZybDev\FLM.OPM\source\OPM.Main\bin\Debug\net6.0\OPM.Infrastructure.dll
 D:\ZybDev\FLM.OPM\source\OPM.Main\bin\Debug\net6.0\OPM.MediatR.dll
@@ -428,7 +428,7 @@ D:\ZybDev\FLM.OPM\source\OPM.Main\bin\Debug\net6.0\OPM.Modules.Contacts.dll
 D:\ZybDev\FLM.OPM\source\OPM.Main\bin\Debug\net6.0\OPM.Modules.Mail.dll
 D:\ZybDev\FLM.OPM\source\OPM.Main\bin\Debug\net6.0\OPM.Modules.Message.dll
 D:\ZybDev\FLM.OPM\source\OPM.Main\bin\Debug\net6.0\OPM.Repository.dll
-D:\ZybDev\FLM.OPM\source\OPM.Main\bin\Debug\net6.0\OPM.Common.pdb
+D:\ZybDev\FLM.OPM\source\OPM.Main\bin\Debug\net6.0\OPM.Core.pdb
 D:\ZybDev\FLM.OPM\source\OPM.Main\bin\Debug\net6.0\OPM.Modules.Calendar.pdb
 D:\ZybDev\FLM.OPM\source\OPM.Main\bin\Debug\net6.0\OPM.Modules.Contacts.pdb
 D:\ZybDev\FLM.OPM\source\OPM.Main\bin\Debug\net6.0\OPM.Modules.Mail.pdb

@@ -85,7 +85,7 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.6\ref\net6.0\Microso
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.6\ref\net6.0\mscorlib.dll
 C:\Users\zhaoyibo\.nuget\packages\mysqlconnector\2.0.0\lib\net6.0\MySqlConnector.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.6\ref\net6.0\netstandard.dll
-D:\ZybDev\FLM.OPM\source\OPM.Common\obj\Debug\net6.0\ref\OPM.Common.dll
+D:\ZybDev\FLM.OPM\source\OPM.Core\obj\Debug\net6.0\ref\OPM.Core.dll
 D:\ZybDev\FLM.OPM\source\OPM.Data\obj\Debug\net6.0\ref\OPM.Data.dll
 D:\ZybDev\FLM.OPM\source\OPM.Infrastructure\obj\Debug\net6.0\ref\OPM.Infrastructure.dll
 D:\ZybDev\FLM.OPM\source\OPM.MediatR\obj\Debug\net6.0\ref\OPM.MediatR.dll

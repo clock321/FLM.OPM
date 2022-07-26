@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using OPM.Data.Dto;
 
-namespace OPM.Common
+namespace OPM.Core
 {
     public static class MapperConfig
     {

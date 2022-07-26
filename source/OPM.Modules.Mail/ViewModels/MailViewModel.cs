@@ -1,7 +1,7 @@
 ﻿using System.Collections.ObjectModel;
 using Prism.Commands;
 using Prism.Regions;
-using OPM.Common;
+using OPM.Core;
 using OPM.Modules.Mail.Models;
 using OPM.Modules.Mail.Services;
 using MediatR;

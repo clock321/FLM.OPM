@@ -2040,7 +2040,7 @@
           "lib/netcoreapp2.0/Unity.Container.dll": {}
         }
       },
-      "OPM.Common/1.0.0": {
+      "OPM.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -2057,10 +2057,10 @@
           "ReactiveUI.Fody": "17.1.17"
         },
         "compile": {
-          "bin/placeholder/OPM.Common.dll": {}
+          "bin/placeholder/OPM.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/OPM.Common.dll": {}
+          "bin/placeholder/OPM.Core.dll": {}
         }
       },
       "OPM.Data/1.0.0": {
@@ -2123,7 +2123,7 @@
           "Avalonia.Desktop": "0.10.11",
           "Avalonia.Diagnostics": "0.10.11",
           "Avalonia.ReactiveUI": "0.10.11",
-          "OPM.Common": "1.0.0",
+          "OPM.Core": "1.0.0",
           "Prism.Avalonia": "7.2.0.1430",
           "Prism.Unity.Avalonia": "7.2.0.1430"
         },
@@ -2142,7 +2142,7 @@
           "Avalonia.Desktop": "0.10.11",
           "Avalonia.Diagnostics": "0.10.11",
           "Avalonia.ReactiveUI": "0.10.11",
-          "OPM.Common": "1.0.0",
+          "OPM.Core": "1.0.0",
           "Prism.Avalonia": "7.2.0.1430",
           "Prism.Unity.Avalonia": "7.2.0.1430"
         },
@@ -2161,7 +2161,7 @@
           "Avalonia.Desktop": "0.10.11",
           "Avalonia.Diagnostics": "0.10.11",
           "Avalonia.ReactiveUI": "0.10.11",
-          "OPM.Common": "1.0.0",
+          "OPM.Core": "1.0.0",
           "Prism.Avalonia": "7.2.0.1430",
           "Prism.Unity.Avalonia": "7.2.0.1430"
         },
@@ -2180,7 +2180,7 @@
           "Avalonia.Desktop": "0.10.11",
           "Avalonia.Diagnostics": "0.10.11",
           "Avalonia.ReactiveUI": "0.10.11",
-          "OPM.Common": "1.0.0",
+          "OPM.Core": "1.0.0",
           "Prism.Avalonia": "7.2.0.1430",
           "Prism.Unity.Avalonia": "7.2.0.1430"
         },
@@ -6174,10 +6174,10 @@
         "unity.nuspec"
       ]
     },
-    "OPM.Common/1.0.0": {
+    "OPM.Core/1.0.0": {
       "type": "project",
-      "path": "../OPM.Common/OPM.Common.csproj",
-      "msbuildProject": "../OPM.Common/OPM.Common.csproj"
+      "path": "../OPM.Core/OPM.Core.csproj",
+      "msbuildProject": "../OPM.Core/OPM.Core.csproj"
     },
     "OPM.Data/1.0.0": {
       "type": "project",
@@ -6228,7 +6228,7 @@
       "Avalonia.ReactiveUI >= 0.10.16",
       "Material.Icons >= 1.0.68",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.1",
-      "OPM.Common >= 1.0.0",
+      "OPM.Core >= 1.0.0",
       "OPM.Modules.Calendar >= 1.0.0",
       "OPM.Modules.Contacts >= 1.0.0",
       "OPM.Modules.Mail >= 1.0.0",
@@ -6268,8 +6268,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\ZybDev\\FLM.OPM\\source\\OPM.Common\\OPM.Common.csproj": {
-              "projectPath": "D:\\ZybDev\\FLM.OPM\\source\\OPM.Common\\OPM.Common.csproj"
+            "D:\\ZybDev\\FLM.OPM\\source\\OPM.Core\\OPM.Core.csproj": {
+              "projectPath": "D:\\ZybDev\\FLM.OPM\\source\\OPM.Core\\OPM.Core.csproj"
             },
             "D:\\ZybDev\\FLM.OPM\\source\\OPM.Modules.Calendar\\OPM.Modules.Calendar.csproj": {
               "projectPath": "D:\\ZybDev\\FLM.OPM\\source\\OPM.Modules.Calendar\\OPM.Modules.Calendar.csproj"

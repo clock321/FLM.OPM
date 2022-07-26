@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 using ReactiveUI.Fody.Helpers;
 
 
-namespace OPM.Common
+namespace OPM.Core
 {
 
   //[AddINotifyPropertyChangedInterface]

@@ -4,7 +4,7 @@ using Avalonia.Controls.Templates;
 //using System.Threading.Tasks;
 //using OPM.MediatR.Queries;
 //using System.Reactive.Disposables;
-using OPM.Common;
+using OPM.Core;
 
 
 

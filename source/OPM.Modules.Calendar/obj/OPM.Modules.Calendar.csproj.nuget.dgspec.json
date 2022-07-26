@@ -4,14 +4,14 @@
     "D:\\ZybDev\\FLM.OPM\\source\\OPM.Modules.Calendar\\OPM.Modules.Calendar.csproj": {}
   },
   "projects": {
-    "D:\\ZybDev\\FLM.OPM\\source\\OPM.Common\\OPM.Common.csproj": {
+    "D:\\ZybDev\\FLM.OPM\\source\\OPM.Core\\OPM.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ZybDev\\FLM.OPM\\source\\OPM.Common\\OPM.Common.csproj",
-        "projectName": "OPM.Common",
-        "projectPath": "D:\\ZybDev\\FLM.OPM\\source\\OPM.Common\\OPM.Common.csproj",
+        "projectUniqueName": "D:\\ZybDev\\FLM.OPM\\source\\OPM.Core\\OPM.Core.csproj",
+        "projectName": "OPM.Core",
+        "projectPath": "D:\\ZybDev\\FLM.OPM\\source\\OPM.Core\\OPM.Core.csproj",
         "packagesPath": "C:\\Users\\zhaoyibo\\.nuget\\packages\\",
-        "outputPath": "D:\\ZybDev\\FLM.OPM\\source\\OPM.Common\\obj\\",
+        "outputPath": "D:\\ZybDev\\FLM.OPM\\source\\OPM.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -391,8 +391,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ZybDev\\FLM.OPM\\source\\OPM.Common\\OPM.Common.csproj": {
-                "projectPath": "D:\\ZybDev\\FLM.OPM\\source\\OPM.Common\\OPM.Common.csproj"
+              "D:\\ZybDev\\FLM.OPM\\source\\OPM.Core\\OPM.Core.csproj": {
+                "projectPath": "D:\\ZybDev\\FLM.OPM\\source\\OPM.Core\\OPM.Core.csproj"
               }
             }
           }

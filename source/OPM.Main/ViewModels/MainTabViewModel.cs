@@ -1,5 +1,5 @@
 ﻿using System.Collections.ObjectModel;
-using OPM.Common;
+using OPM.Core;
 using OPM.Main.Models;
 using MediatR;
 using Prism.Commands;

@@ -14,7 +14,7 @@ using Prism.Ioc;
 using Prism.Modularity;
 using Prism.Regions;
 using Prism.Unity;
-using OPM.Common;
+using OPM.Core;
 using OPM.Data;
 using OPM.Main.Core.RegionAdapters;
 using OPM.MediatR.PipeLineBehavior;

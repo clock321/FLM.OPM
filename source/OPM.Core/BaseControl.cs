@@ -9,7 +9,7 @@ using Avalonia.Markup.Xaml;
 using PropertyChanged;
 
 
-namespace OPM.Common
+namespace OPM.Core
 {
 
   [DoNotNotifyAttribute]

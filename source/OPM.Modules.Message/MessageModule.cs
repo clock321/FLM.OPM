@@ -1,7 +1,7 @@
 using Prism.Ioc;
 using Prism.Modularity;
 using Prism.Regions;
-using OPM.Common;
+using OPM.Core;
 using OPM.Modules.Message.Views;
 
 namespace OPM.Modules.Message

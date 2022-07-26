@@ -1,4 +1,4 @@
-﻿namespace OPM.Common
+﻿namespace OPM.Core
 {
   public static class RegionNames
   {

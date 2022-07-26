@@ -1,7 +1,7 @@
 ﻿using System.Collections.ObjectModel;
 using MediatR;
 using Prism.Commands;
-using OPM.Common;
+using OPM.Core;
 using OPM.Main.Models;
 using OPM.MediatR.Queries;
 using System.Reactive.Disposables;

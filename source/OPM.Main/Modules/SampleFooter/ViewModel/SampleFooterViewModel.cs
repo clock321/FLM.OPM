@@ -1,4 +1,4 @@
-﻿using OPM.Common;
+﻿using OPM.Core;
 using MediatR;
 
 namespace OPM.Modules.SampleFooter.ViewModels

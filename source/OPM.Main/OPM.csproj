@@ -64,7 +64,7 @@
     <PackageReference Include="Prism.Unity.Avalonia" Version="7.2.0.1430" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OPM.Common\OPM.Common.csproj" />
+    <ProjectReference Include="..\OPM.Core\OPM.Core.csproj" />
     <ProjectReference Include="..\OPM.Modules.Calendar\OPM.Modules.Calendar.csproj" />
     <ProjectReference Include="..\OPM.Modules.Contacts\OPM.Modules.Contacts.csproj" />
     <ProjectReference Include="..\OPM.Modules.Mail\OPM.Modules.Mail.csproj" />

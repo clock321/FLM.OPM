@@ -1,7 +1,7 @@
 ﻿using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 using Avalonia.Controls.Primitives;
-using OPM.Common;
+using OPM.Core;
 using OPM.ViewModels;
 
 namespace OPM.Views

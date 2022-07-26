@@ -14,7 +14,7 @@
           "Avalonia.ReactiveUI": "0.10.16",
           "Material.Icons": "1.0.68",
           "Microsoft.EntityFrameworkCore.Design": "6.0.1",
-          "OPM.Common": "1.0.0",
+          "OPM.Core": "1.0.0",
           "OPM.Modules.Calendar": "1.0.0",
           "OPM.Modules.Contacts": "1.0.0",
           "OPM.Modules.Mail": "1.0.0",
@@ -1670,7 +1670,7 @@
           }
         }
       },
-      "OPM.Common/1.0.0": {
+      "OPM.Core/1.0.0": {
         "dependencies": {
           "Avalonia": "0.10.16",
           "Avalonia.ReactiveUI": "0.10.16",
@@ -1685,7 +1685,7 @@
           "ReactiveUI.Fody": "17.1.17"
         },
         "runtime": {
-          "OPM.Common.dll": {}
+          "OPM.Core.dll": {}
         }
       },
       "OPM.Data/1.0.0": {
@@ -1731,7 +1731,7 @@
           "Avalonia.Desktop": "0.10.16",
           "Avalonia.Diagnostics": "0.10.16",
           "Avalonia.ReactiveUI": "0.10.16",
-          "OPM.Common": "1.0.0",
+          "OPM.Core": "1.0.0",
           "Prism.Avalonia": "7.2.0.1430",
           "Prism.Unity.Avalonia": "7.2.0.1430"
         },
@@ -1745,7 +1745,7 @@
           "Avalonia.Desktop": "0.10.16",
           "Avalonia.Diagnostics": "0.10.16",
           "Avalonia.ReactiveUI": "0.10.16",
-          "OPM.Common": "1.0.0",
+          "OPM.Core": "1.0.0",
           "Prism.Avalonia": "7.2.0.1430",
           "Prism.Unity.Avalonia": "7.2.0.1430"
         },
@@ -1759,7 +1759,7 @@
           "Avalonia.Desktop": "0.10.16",
           "Avalonia.Diagnostics": "0.10.16",
           "Avalonia.ReactiveUI": "0.10.16",
-          "OPM.Common": "1.0.0",
+          "OPM.Core": "1.0.0",
           "Prism.Avalonia": "7.2.0.1430",
           "Prism.Unity.Avalonia": "7.2.0.1430"
         },
@@ -1773,7 +1773,7 @@
           "Avalonia.Desktop": "0.10.16",
           "Avalonia.Diagnostics": "0.10.16",
           "Avalonia.ReactiveUI": "0.10.16",
-          "OPM.Common": "1.0.0",
+          "OPM.Core": "1.0.0",
           "Prism.Avalonia": "7.2.0.1430",
           "Prism.Unity.Avalonia": "7.2.0.1430"
         },
@@ -2722,7 +2722,7 @@
       "path": "unity/5.11.1",
       "hashPath": "unity.5.11.1.nupkg.sha512"
     },
-    "OPM.Common/1.0.0": {
+    "OPM.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

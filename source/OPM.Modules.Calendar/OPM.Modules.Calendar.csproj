@@ -22,6 +22,6 @@
     <PackageReference Include="Prism.Unity.Avalonia" Version="7.2.0.1430" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OPM.Common\OPM.Common.csproj" />
+    <ProjectReference Include="..\OPM.Core\OPM.Core.csproj" />
   </ItemGroup>
 </Project>

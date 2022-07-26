@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using OPM.ViewModels;
 using Avalonia.Platform;
 using Avalonia.Controls.Primitives;
-using OPM.Common;
+using OPM.Core;
 using System.Reactive.Disposables;
 using Avalonia;
 using Avalonia.Markup.Xaml;
