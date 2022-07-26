@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>OPM</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,6 +13,7 @@
     <PackageReference Include="PropertyChanged.Fody" Version="3.4.0" />
     <PackageReference Include="ReactiveUI" Version="17.1.17" />
     <PackageReference Include="ReactiveUI.Fody" Version="17.1.17" />
+    <PackageReference Include="Volo.Abp.Core" Version="3.3.2" />
   </ItemGroup>
 
   <ItemGroup>

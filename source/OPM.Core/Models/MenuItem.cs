@@ -1,6 +1,6 @@
 using System.Windows.Input;
 
-namespace OPM.Main.Models
+namespace OPM.Models
 {
   public class MenuItem
   {

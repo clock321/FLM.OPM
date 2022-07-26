@@ -2,7 +2,7 @@
 using MediatR;
 using Prism.Commands;
 using OPM.Core;
-using OPM.Main.Models;
+using OPM.Models;
 using OPM.MediatR.Queries;
 using System.Reactive.Disposables;
 using ReactiveUI;

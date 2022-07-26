@@ -35,10 +35,13 @@ C:\Users\zhaoyibo\.nuget\packages\dynamicdata\7.4.9\lib\net6.0\DynamicData.dll
 C:\Users\zhaoyibo\.nuget\packages\fluentvalidation.dependencyinjectionextensions\10.3.6\lib\netstandard2.1\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\zhaoyibo\.nuget\packages\fluentvalidation\10.3.6\lib\net6.0\FluentValidation.dll
 C:\Users\zhaoyibo\.nuget\packages\harfbuzzsharp\2.6.1.7\lib\netstandard2.0\HarfBuzzSharp.dll
-C:\Users\zhaoyibo\.nuget\packages\jetbrains.annotations\10.3.0\lib\netstandard1.0\JetBrains.Annotations.dll
+C:\Users\zhaoyibo\.nuget\packages\jetbrains.annotations\2020.1.0\lib\netstandard2.0\JetBrains.Annotations.dll
 C:\Users\zhaoyibo\.nuget\packages\mediatr.contracts\1.0.1\lib\netstandard2.0\MediatR.Contracts.dll
 C:\Users\zhaoyibo\.nuget\packages\mediatr\10.0.1\lib\netstandard2.1\MediatR.dll
 C:\Users\zhaoyibo\.nuget\packages\mediatr.extensions.microsoft.dependencyinjection\10.0.1\lib\netstandard2.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\zhaoyibo\.nuget\packages\microsoft.aspnetcore.authentication.abstractions\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\zhaoyibo\.nuget\packages\microsoft.aspnetcore.http.abstractions\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\zhaoyibo\.nuget\packages\microsoft.aspnetcore.http.features\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\zhaoyibo\.nuget\packages\microsoft.bcl.asyncinterfaces\1.0.0\ref\netstandard2.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.6\ref\net6.0\Microsoft.CSharp.dll
 C:\Users\zhaoyibo\.nuget\packages\microsoft.data.sqlclient\4.0.1\ref\netcoreapp3.1\Microsoft.Data.SqlClient.dll
@@ -50,14 +53,20 @@ C:\Users\zhaoyibo\.nuget\packages\microsoft.extensions.caching.abstractions\6.0.
 C:\Users\zhaoyibo\.nuget\packages\microsoft.extensions.caching.memory\6.0.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\zhaoyibo\.nuget\packages\microsoft.extensions.configuration.abstractions\6.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\zhaoyibo\.nuget\packages\microsoft.extensions.configuration.binder\6.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\zhaoyibo\.nuget\packages\microsoft.extensions.configuration.commandline\3.1.8\lib\netcoreapp3.1\Microsoft.Extensions.Configuration.CommandLine.dll
 C:\Users\zhaoyibo\.nuget\packages\microsoft.extensions.configuration\6.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll
+C:\Users\zhaoyibo\.nuget\packages\microsoft.extensions.configuration.environmentvariables\3.1.8\lib\netcoreapp3.1\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
 C:\Users\zhaoyibo\.nuget\packages\microsoft.extensions.configuration.fileextensions\6.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.FileExtensions.dll
 C:\Users\zhaoyibo\.nuget\packages\microsoft.extensions.configuration.json\6.0.0\lib\netstandard2.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\zhaoyibo\.nuget\packages\microsoft.extensions.configuration.usersecrets\3.1.8\lib\netcoreapp3.1\Microsoft.Extensions.Configuration.UserSecrets.dll
 C:\Users\zhaoyibo\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\6.0.0\lib\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\zhaoyibo\.nuget\packages\microsoft.extensions.dependencyinjection\6.0.0\lib\net6.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\zhaoyibo\.nuget\packages\microsoft.extensions.fileproviders.abstractions\6.0.0\lib\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
 C:\Users\zhaoyibo\.nuget\packages\microsoft.extensions.fileproviders.physical\6.0.0\lib\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
 C:\Users\zhaoyibo\.nuget\packages\microsoft.extensions.filesystemglobbing\6.0.0\lib\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\zhaoyibo\.nuget\packages\microsoft.extensions.hosting.abstractions\3.1.8\lib\netcoreapp3.1\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\zhaoyibo\.nuget\packages\microsoft.extensions.localization.abstractions\3.1.8\lib\netcoreapp3.1\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\zhaoyibo\.nuget\packages\microsoft.extensions.localization\3.1.8\lib\netcoreapp3.1\Microsoft.Extensions.Localization.dll
 C:\Users\zhaoyibo\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\lib\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\zhaoyibo\.nuget\packages\microsoft.extensions.logging.configuration\6.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Configuration.dll
 C:\Users\zhaoyibo\.nuget\packages\microsoft.extensions.logging.console\6.0.0\lib\net6.0\Microsoft.Extensions.Logging.Console.dll
@@ -79,6 +88,12 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.6\ref\net6.0\Microso
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.6\ref\net6.0\mscorlib.dll
 C:\Users\zhaoyibo\.nuget\packages\mysqlconnector\2.0.0\lib\net6.0\MySqlConnector.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.6\ref\net6.0\netstandard.dll
+C:\Users\zhaoyibo\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll
+C:\Users\zhaoyibo\.nuget\packages\nito.asyncex.context\5.0.0\lib\netstandard2.0\Nito.AsyncEx.Context.dll
+C:\Users\zhaoyibo\.nuget\packages\nito.asyncex.coordination\5.0.0\lib\netstandard2.0\Nito.AsyncEx.Coordination.dll
+C:\Users\zhaoyibo\.nuget\packages\nito.asyncex.tasks\5.0.0\lib\netstandard2.0\Nito.AsyncEx.Tasks.dll
+C:\Users\zhaoyibo\.nuget\packages\nito.collections.deque\1.0.4\lib\netstandard2.0\Nito.Collections.Deque.dll
+C:\Users\zhaoyibo\.nuget\packages\nito.disposables\2.0.0\lib\netstandard2.0\Nito.Disposables.dll
 D:\ZybDev\FLM.OPM\source\OPM.Data\obj\Debug\net6.0\ref\OPM.Data.dll
 D:\ZybDev\FLM.OPM\source\OPM.Infrastructure\obj\Debug\net6.0\ref\OPM.Infrastructure.dll
 D:\ZybDev\FLM.OPM\source\OPM.MediatR\obj\Debug\net6.0\ref\OPM.MediatR.dll
@@ -252,4 +267,5 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.6\ref\net6.0\System.
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.6\ref\net6.0\System.Xml.XPath.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.6\ref\net6.0\System.Xml.XPath.XDocument.dll
 C:\Users\zhaoyibo\.nuget\packages\tmds.dbus\0.9.0\lib\netstandard2.0\Tmds.DBus.dll
+C:\Users\zhaoyibo\.nuget\packages\volo.abp.core\3.3.2\lib\netstandard2.0\Volo.Abp.Core.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.6\ref\net6.0\WindowsBase.dll
