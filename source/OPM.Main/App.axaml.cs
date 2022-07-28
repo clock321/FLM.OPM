@@ -37,13 +37,22 @@ namespace OPM
 {
   public class App : PrismApplication
   {
+    bool IsDevelopmentEnv = false;
     public override void Initialize()
     {
       AvaloniaXamlLoader.Load(this);
 
+      var OPM_ENVIRONMENT=  Environment.GetEnvironmentVariable("OPM_ENVIRONMENT");
+      if(OPM_ENVIRONMENT!=null&& OPM_ENVIRONMENT.ToLower()== "development")
+      {
+        IsDevelopmentEnv = true;
+      }
+
+      AppConfigurations.InitAppConfiguration(IsDevelopmentEnv);
+
+
       //Ö÷Ìâ
       Styles.Add(new DarkTheme());
-
       base.Initialize();
     }
 
@@ -117,6 +126,9 @@ namespace OPM
 
       crg.RegisterSingleton<UserInfoToken>();
 
+      crg.RegisterSingleton<AccessTokenSingleton>();
+      crg.Register<Core.Http.HttpClientBase>();
+      crg.Register<Core.Http.AbpHttpClientBase>();
 
       //×¢²áAutoMapper
       crg.RegisterInstance(MapperConfig.GetMapperConfigs());
@@ -146,7 +158,7 @@ namespace OPM
       crg.RegisterForNavigation<DashboardView, DashboardViewModel>();
       crg.RegisterForNavigation<SettingsView, SettingsViewModel>();
 
-      crg.RegisterForNavigation<LoginPage, LoginViewModel>();
+      crg.RegisterForNavigation<LoginPage, LoginViewModel>("µÇÂ¼");
       //crg.RegisterForNavigation<NavigationView, NavigationViewModel>();
 
     }

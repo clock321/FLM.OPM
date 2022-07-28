@@ -13,7 +13,7 @@ namespace OPM.Core.Http
 {
   public class AbpHttpClientBase: HttpClientBase
   {
-    public AbpHttpClientBase(string baseAddress, AccessTokenSingleton AccessTokenModel) : base(baseAddress, AccessTokenModel) { }
+    public AbpHttpClientBase(AccessTokenSingleton AccessTokenModel) : base(AccessTokenModel) { }
 
 
     public override async Task<TValue> ProcessResponseAsync<TValue>(HttpResponseMessage response)

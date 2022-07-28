@@ -20,7 +20,11 @@
           "OPM.Modules.Mail": "1.0.0",
           "OPM.Modules.Message": "1.0.0",
           "Prism.Avalonia": "7.2.0.1430",
-          "Prism.Unity.Avalonia": "7.2.0.1430"
+          "Prism.Unity.Avalonia": "7.2.0.1430",
+          "Serilog": "2.11.0",
+          "Serilog.Sinks.Console": "4.0.1",
+          "Serilog.Sinks.File": "5.0.0",
+          "Splat.Serilog": "13.1.63"
         },
         "runtime": {
           "OPM.dll": {}
@@ -513,42 +517,6 @@
           "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {
             "assemblyVersion": "10.0.0.0",
             "fileVersion": "10.0.1.0"
-          }
-        }
-      },
-      "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
-          "Microsoft.Extensions.Options": "6.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Abstractions.dll": {
-            "assemblyVersion": "2.2.0.0",
-            "fileVersion": "2.2.0.18316"
-          }
-        }
-      },
-      "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Http.Features": "2.2.0",
-          "System.Text.Encodings.Web": "6.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {
-            "assemblyVersion": "2.2.0.0",
-            "fileVersion": "2.2.0.18316"
-          }
-        }
-      },
-      "Microsoft.AspNetCore.Http.Features/2.2.0": {
-        "dependencies": {
-          "Microsoft.Extensions.Primitives": "6.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {
-            "assemblyVersion": "2.2.0.0",
-            "fileVersion": "2.2.0.18316"
           }
         }
       },
@@ -1474,6 +1442,36 @@
           }
         }
       },
+      "Serilog/2.11.0": {
+        "runtime": {
+          "lib/net5.0/Serilog.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.11.0.0"
+          }
+        }
+      },
+      "Serilog.Sinks.Console/4.0.1": {
+        "dependencies": {
+          "Serilog": "2.11.0"
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.0.1.0"
+          }
+        }
+      },
+      "Serilog.Sinks.File/5.0.0": {
+        "dependencies": {
+          "Serilog": "2.11.0"
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Sinks.File.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
       "SixLabors.ImageSharp/1.0.4": {
         "runtime": {
           "lib/netcoreapp3.1/SixLabors.ImageSharp.dll": {
@@ -1556,6 +1554,19 @@
           "lib/net6.0/Splat.dll": {
             "assemblyVersion": "14.1.0.0",
             "fileVersion": "14.1.17.4223"
+          }
+        }
+      },
+      "Splat.Serilog/13.1.63": {
+        "dependencies": {
+          "Serilog": "2.11.0",
+          "Splat": "14.1.17",
+          "System.Collections.Immutable": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Splat.Serilog.dll": {
+            "assemblyVersion": "13.1.0.0",
+            "fileVersion": "13.1.63.25476"
           }
         }
       },
@@ -1979,7 +1990,8 @@
           "Prism.Avalonia": "7.2.0.1430",
           "PropertyChanged.Fody": "3.4.0",
           "ReactiveUI": "17.1.17",
-          "ReactiveUI.Fody": "17.1.17"
+          "ReactiveUI.Fody": "17.1.17",
+          "Volo.Abp.Core": "3.3.2"
         },
         "runtime": {
           "OPM.Core.dll": {}
@@ -2000,11 +2012,8 @@
       },
       "OPM.Infrastructure/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Authentication.Abstractions": "2.2.0",
-          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Newtonsoft.Json": "12.0.3",
-          "SixLabors.ImageSharp": "1.0.4",
-          "Volo.Abp.Core": "3.3.2"
+          "SixLabors.ImageSharp": "1.0.4"
         },
         "runtime": {
           "OPM.Infrastructure.dll": {}
@@ -2336,27 +2345,6 @@
       "sha512": "sha512-mYdfMvpkahCAj4tRfBoeMlUBZa2WthaONdQ4y5TtIyxcZYb5e7AE7c1eITTZVWcQhguxvD8AdExdaiAW6RhrVA==",
       "path": "mediatr.extensions.microsoft.dependencyinjection/10.0.1",
       "hashPath": "mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-VloMLDJMf3n/9ic5lCBOa42IBYJgyB1JhzLsL68Zqg+2bEPWfGBj/xCJy/LrKTArN0coOcZp3wyVTZlx0y9pHQ==",
-      "path": "microsoft.aspnetcore.authentication.abstractions/2.2.0",
-      "hashPath": "microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Nxs7Z1q3f1STfLYKJSVXCs1iBl+Ya6E8o4Oy1bCxJ/rNI44E/0f6tbsrVqAWfB7jlnJfyaAtIalBVxPKUPQb4Q==",
-      "path": "microsoft.aspnetcore.http.abstractions/2.2.0",
-      "hashPath": "microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Http.Features/2.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ziFz5zH8f33En4dX81LW84I6XrYXKf9jg6aM39cM+LffN9KJahViKZ61dGMSO2gd3e+qe5yBRwsesvyqlZaSMg==",
-      "path": "microsoft.aspnetcore.http.features/2.2.0",
-      "hashPath": "microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
       "type": "package",
@@ -2813,6 +2801,27 @@
       "path": "reactiveui.fody/17.1.17",
       "hashPath": "reactiveui.fody.17.1.17.nupkg.sha512"
     },
+    "Serilog/2.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ysv+hBzTul6Dp+Hvm10FlhJO3yMQcFKSAleus+LpiIzvNstpeV4Z7gGuIZ1OPNfIMulSHOjmLuGAEDKzpnV8ZQ==",
+      "path": "serilog/2.11.0",
+      "hashPath": "serilog.2.11.0.nupkg.sha512"
+    },
+    "Serilog.Sinks.Console/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-apLOvSJQLlIbKlbx+Y2UDHSP05kJsV7mou+fvJoRGs/iR+jC22r8cuFVMjjfVxz/AD4B2UCltFhE1naRLXwKNw==",
+      "path": "serilog.sinks.console/4.0.1",
+      "hashPath": "serilog.sinks.console.4.0.1.nupkg.sha512"
+    },
+    "Serilog.Sinks.File/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uwV5hdhWPwUH1szhO8PJpFiahqXmzPzJT/sOijH/kFgUx+cyoDTMM8MHD0adw9+Iem6itoibbUXHYslzXsLEAg==",
+      "path": "serilog.sinks.file/5.0.0",
+      "hashPath": "serilog.sinks.file.5.0.0.nupkg.sha512"
+    },
     "SixLabors.ImageSharp/1.0.4": {
       "type": "package",
       "serviceable": true,
@@ -2861,6 +2870,13 @@
       "sha512": "sha512-orBlJcQS4b1VZUlT+sJIensH0MsTYyCJlStT6bRwt71OFqNYD6V1SpkoIt6vKSf8YXgDT7QH/LuwWdLfTyHPrw==",
       "path": "splat/14.1.17",
       "hashPath": "splat.14.1.17.nupkg.sha512"
+    },
+    "Splat.Serilog/13.1.63": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qZzJQk1GA6zUPCnzHzyqfQ0dUF26GyureFx6OhfJvusdQSDJ7NvA8wilVfYBI1RTE8m8DmFDeKAw0PYg6uW8lA==",
+      "path": "splat.serilog/13.1.63",
+      "hashPath": "splat.serilog.13.1.63.nupkg.sha512"
     },
     "System.Buffers/4.5.1": {
       "type": "package",

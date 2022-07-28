@@ -1,7 +1,10 @@
 {
   "profiles": {
     "OPM": {
-      "commandName": "Project"
+      "commandName": "Project",
+      "environmentVariables": {
+        "OPM_ENVIRONMENT": "Development"
+      }
     },
     "WSL": {
       "commandName": "Project",

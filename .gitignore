@@ -21,3 +21,5 @@ source/SMS.Main/appsettings.json
 source/SMS.Infrastructure/bin/
 .vs/
 CodeMaid.config
+/source/OPM.Main/bin/Debug/net6.0/Logs
+/source/OPM.Main/bin/Debug/net6.0/log-20220728.txt

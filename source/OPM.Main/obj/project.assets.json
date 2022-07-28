@@ -1574,6 +1574,39 @@
           "build/_._": {}
         }
       },
+      "Serilog/2.11.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Serilog.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.dll": {}
+        }
+      },
+      "Serilog.Sinks.Console/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "compile": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Sinks.Console.dll": {}
+        }
+      },
+      "Serilog.Sinks.File/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "compile": {
+          "lib/net5.0/Serilog.Sinks.File.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Serilog.Sinks.File.dll": {}
+        }
+      },
       "SixLabors.ImageSharp/1.0.4": {
         "type": "package",
         "compile": {
@@ -1685,6 +1718,20 @@
         },
         "runtime": {
           "lib/net6.0/Splat.dll": {}
+        }
+      },
+      "Splat.Serilog/13.1.63": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.10.0",
+          "Splat": "13.1.63",
+          "System.Collections.Immutable": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Splat.Serilog.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Splat.Serilog.dll": {}
         }
       },
       "System.Buffers/4.5.1": {
@@ -4856,6 +4903,79 @@
         "weaver/ReactiveUI.Fody.dll"
       ]
     },
+    "Serilog/2.11.0": {
+      "sha512": "ysv+hBzTul6Dp+Hvm10FlhJO3yMQcFKSAleus+LpiIzvNstpeV4Z7gGuIZ1OPNfIMulSHOjmLuGAEDKzpnV8ZQ==",
+      "type": "package",
+      "path": "serilog/2.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net45/Serilog.dll",
+        "lib/net45/Serilog.xml",
+        "lib/net46/Serilog.dll",
+        "lib/net46/Serilog.xml",
+        "lib/net5.0/Serilog.dll",
+        "lib/net5.0/Serilog.xml",
+        "lib/netstandard1.0/Serilog.dll",
+        "lib/netstandard1.0/Serilog.xml",
+        "lib/netstandard1.3/Serilog.dll",
+        "lib/netstandard1.3/Serilog.xml",
+        "lib/netstandard2.0/Serilog.dll",
+        "lib/netstandard2.0/Serilog.xml",
+        "lib/netstandard2.1/Serilog.dll",
+        "lib/netstandard2.1/Serilog.xml",
+        "serilog.2.11.0.nupkg.sha512",
+        "serilog.nuspec"
+      ]
+    },
+    "Serilog.Sinks.Console/4.0.1": {
+      "sha512": "apLOvSJQLlIbKlbx+Y2UDHSP05kJsV7mou+fvJoRGs/iR+jC22r8cuFVMjjfVxz/AD4B2UCltFhE1naRLXwKNw==",
+      "type": "package",
+      "path": "serilog.sinks.console/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net45/Serilog.Sinks.Console.dll",
+        "lib/net45/Serilog.Sinks.Console.xml",
+        "lib/net5.0/Serilog.Sinks.Console.dll",
+        "lib/net5.0/Serilog.Sinks.Console.xml",
+        "lib/netstandard1.3/Serilog.Sinks.Console.dll",
+        "lib/netstandard1.3/Serilog.Sinks.Console.xml",
+        "lib/netstandard2.0/Serilog.Sinks.Console.dll",
+        "lib/netstandard2.0/Serilog.Sinks.Console.xml",
+        "serilog.sinks.console.4.0.1.nupkg.sha512",
+        "serilog.sinks.console.nuspec"
+      ]
+    },
+    "Serilog.Sinks.File/5.0.0": {
+      "sha512": "uwV5hdhWPwUH1szhO8PJpFiahqXmzPzJT/sOijH/kFgUx+cyoDTMM8MHD0adw9+Iem6itoibbUXHYslzXsLEAg==",
+      "type": "package",
+      "path": "serilog.sinks.file/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/icon.png",
+        "lib/net45/Serilog.Sinks.File.dll",
+        "lib/net45/Serilog.Sinks.File.pdb",
+        "lib/net45/Serilog.Sinks.File.xml",
+        "lib/net5.0/Serilog.Sinks.File.dll",
+        "lib/net5.0/Serilog.Sinks.File.pdb",
+        "lib/net5.0/Serilog.Sinks.File.xml",
+        "lib/netstandard1.3/Serilog.Sinks.File.dll",
+        "lib/netstandard1.3/Serilog.Sinks.File.pdb",
+        "lib/netstandard1.3/Serilog.Sinks.File.xml",
+        "lib/netstandard2.0/Serilog.Sinks.File.dll",
+        "lib/netstandard2.0/Serilog.Sinks.File.pdb",
+        "lib/netstandard2.0/Serilog.Sinks.File.xml",
+        "lib/netstandard2.1/Serilog.Sinks.File.dll",
+        "lib/netstandard2.1/Serilog.Sinks.File.pdb",
+        "lib/netstandard2.1/Serilog.Sinks.File.xml",
+        "serilog.sinks.file.5.0.0.nupkg.sha512",
+        "serilog.sinks.file.nuspec"
+      ]
+    },
     "SixLabors.ImageSharp/1.0.4": {
       "sha512": "H2rPiEr2ddBOltOuqRYhpLBAsQXDAhbzMMhhuksnBG2oefup1MXMchALe7yYkKJksNbtxbZHKeM6dn/68I75qw==",
       "type": "package",
@@ -5045,6 +5165,26 @@
         "lib/netstandard2.0/Splat.xml",
         "splat.14.1.17.nupkg.sha512",
         "splat.nuspec"
+      ]
+    },
+    "Splat.Serilog/13.1.63": {
+      "sha512": "qZzJQk1GA6zUPCnzHzyqfQ0dUF26GyureFx6OhfJvusdQSDJ7NvA8wilVfYBI1RTE8m8DmFDeKAw0PYg6uW8lA==",
+      "type": "package",
+      "path": "splat.serilog/13.1.63",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE/LICENSE",
+        "lib/net461/Splat.Serilog.dll",
+        "lib/net461/Splat.Serilog.xml",
+        "lib/net5.0/Splat.Serilog.dll",
+        "lib/net5.0/Splat.Serilog.xml",
+        "lib/net6.0/Splat.Serilog.dll",
+        "lib/net6.0/Splat.Serilog.xml",
+        "lib/netstandard2.0/Splat.Serilog.dll",
+        "lib/netstandard2.0/Splat.Serilog.xml",
+        "splat.serilog.13.1.63.nupkg.sha512",
+        "splat.serilog.nuspec"
       ]
     },
     "System.Buffers/4.5.1": {
@@ -7589,7 +7729,11 @@
       "OPM.Modules.Mail >= 1.0.0",
       "OPM.Modules.Message >= 1.0.0",
       "Prism.Avalonia >= 7.2.0.1430",
-      "Prism.Unity.Avalonia >= 7.2.0.1430"
+      "Prism.Unity.Avalonia >= 7.2.0.1430",
+      "Serilog >= 2.11.0",
+      "Serilog.Sinks.Console >= 4.0.1",
+      "Serilog.Sinks.File >= 5.0.0",
+      "Splat.Serilog >= 13.1.63"
     ]
   },
   "packageFolders": {
@@ -7684,6 +7828,22 @@
           "Prism.Unity.Avalonia": {
             "target": "Package",
             "version": "[7.2.0.1430, )"
+          },
+          "Serilog": {
+            "target": "Package",
+            "version": "[2.11.0, )"
+          },
+          "Serilog.Sinks.Console": {
+            "target": "Package",
+            "version": "[4.0.1, )"
+          },
+          "Serilog.Sinks.File": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
+          "Splat.Serilog": {
+            "target": "Package",
+            "version": "[13.1.63, )"
           }
         },
         "imports": [

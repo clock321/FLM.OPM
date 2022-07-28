@@ -39,9 +39,6 @@ C:\Users\zhaoyibo\.nuget\packages\jetbrains.annotations\2020.1.0\lib\netstandard
 C:\Users\zhaoyibo\.nuget\packages\mediatr.contracts\1.0.1\lib\netstandard2.0\MediatR.Contracts.dll
 C:\Users\zhaoyibo\.nuget\packages\mediatr\10.0.1\lib\netstandard2.1\MediatR.dll
 C:\Users\zhaoyibo\.nuget\packages\mediatr.extensions.microsoft.dependencyinjection\10.0.1\lib\netstandard2.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\zhaoyibo\.nuget\packages\microsoft.aspnetcore.authentication.abstractions\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.Abstractions.dll
-C:\Users\zhaoyibo\.nuget\packages\microsoft.aspnetcore.http.abstractions\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Abstractions.dll
-C:\Users\zhaoyibo\.nuget\packages\microsoft.aspnetcore.http.features\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\zhaoyibo\.nuget\packages\microsoft.bcl.asyncinterfaces\1.0.0\ref\netstandard2.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.6\ref\net6.0\Microsoft.CSharp.dll
 C:\Users\zhaoyibo\.nuget\packages\microsoft.data.sqlclient\4.0.1\ref\netcoreapp3.1\Microsoft.Data.SqlClient.dll

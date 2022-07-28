@@ -17,9 +17,9 @@ namespace OPM.Core.Http
 
     protected AccessTokenSingleton _AccessToken;
 
-    public HttpClientBase(string baseAddress, AccessTokenSingleton AccessTokenModel)
+    public HttpClientBase(AccessTokenSingleton AccessTokenModel)
     {
-      _httpClient.BaseAddress = new Uri(baseAddress);
+      _httpClient.BaseAddress = new Uri(AppConfigurations.SeverHost);
       _AccessToken = AccessTokenModel;
     }
 

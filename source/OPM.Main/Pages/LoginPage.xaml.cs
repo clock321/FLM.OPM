@@ -16,6 +16,6 @@ namespace OPM.Pages
         private void InitializeComponent()
         {
             AvaloniaXamlLoader.Load(this);
-        }
+    }
     }
 }

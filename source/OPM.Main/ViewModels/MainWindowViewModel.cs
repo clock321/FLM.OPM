@@ -76,7 +76,7 @@ namespace OPM.ViewModels
                            }).DisposeWith(disposables);
 
       });
-
+      
     }
 
     public string Greeting => "Welcome to Avalonia!";

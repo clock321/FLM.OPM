@@ -42,9 +42,6 @@ C:\Users\zhaoyibo\.nuget\packages\material.icons\1.0.68\lib\netstandard2.0\Mater
 C:\Users\zhaoyibo\.nuget\packages\mediatr.contracts\1.0.1\lib\netstandard2.0\MediatR.Contracts.dll
 C:\Users\zhaoyibo\.nuget\packages\mediatr\10.0.1\lib\netstandard2.1\MediatR.dll
 C:\Users\zhaoyibo\.nuget\packages\mediatr.extensions.microsoft.dependencyinjection\10.0.1\lib\netstandard2.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\zhaoyibo\.nuget\packages\microsoft.aspnetcore.authentication.abstractions\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.Abstractions.dll
-C:\Users\zhaoyibo\.nuget\packages\microsoft.aspnetcore.http.abstractions\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Abstractions.dll
-C:\Users\zhaoyibo\.nuget\packages\microsoft.aspnetcore.http.features\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Features.dll
 C:\Users\zhaoyibo\.nuget\packages\microsoft.bcl.asyncinterfaces\1.0.0\ref\netstandard2.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\zhaoyibo\.nuget\packages\microsoft.codeanalysis.csharp\3.4.0\lib\netstandard2.0\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\zhaoyibo\.nuget\packages\microsoft.codeanalysis.csharp.scripting\3.4.0\lib\netstandard2.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
@@ -117,9 +114,13 @@ C:\Users\zhaoyibo\.nuget\packages\prism.unity.avalonia\7.2.0.1430\lib\netcoreapp
 C:\Users\zhaoyibo\.nuget\packages\propertychanged.fody\3.4.0\lib\netstandard2.1\PropertyChanged.dll
 C:\Users\zhaoyibo\.nuget\packages\reactiveui\17.1.17\lib\net6.0\ReactiveUI.dll
 C:\Users\zhaoyibo\.nuget\packages\reactiveui.fody\17.1.17\lib\net6.0\ReactiveUI.Fody.Helpers.dll
+C:\Users\zhaoyibo\.nuget\packages\serilog\2.11.0\lib\net5.0\Serilog.dll
+C:\Users\zhaoyibo\.nuget\packages\serilog.sinks.console\4.0.1\lib\net5.0\Serilog.Sinks.Console.dll
+C:\Users\zhaoyibo\.nuget\packages\serilog.sinks.file\5.0.0\lib\net5.0\Serilog.Sinks.File.dll
 C:\Users\zhaoyibo\.nuget\packages\sixlabors.imagesharp\1.0.4\lib\netcoreapp3.1\SixLabors.ImageSharp.dll
 C:\Users\zhaoyibo\.nuget\packages\skiasharp\2.88.1-preview.1\lib\netstandard2.0\SkiaSharp.dll
 C:\Users\zhaoyibo\.nuget\packages\splat\14.1.17\lib\net6.0\Splat.dll
+C:\Users\zhaoyibo\.nuget\packages\splat.serilog\13.1.63\lib\net6.0\Splat.Serilog.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.6\ref\net6.0\System.AppContext.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.6\ref\net6.0\System.Buffers.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\6.0.6\ref\net6.0\System.Collections.Concurrent.dll

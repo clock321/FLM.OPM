@@ -5,6 +5,8 @@ using MediatR;
 using Prism.Commands;
 using PropertyChanged;
 using ReactiveUI.Fody.Helpers;
+using OPM.Core.Http;
+using Avalonia;
 
 namespace OPM.PageModels
 {
@@ -13,17 +15,25 @@ namespace OPM.PageModels
   {
     public DelegateCommand CommandShowDashboard => new DelegateCommand(() =>
     {
-
+      //var AccessTokenSingleton = CommonServiceLocator.ServiceLocator.Current.GetInstance<AccessTokenSingleton>();
+      //AccessTokenSingleton.access_token = "test";
       System.Diagnostics.Debug.Print($"{username}_{password}");
+      //var AssetLoader = AvaloniaLocator.Current.GetService<Avalonia.Platform.IAssetLoader>();
+      Serilog.Log.Information($"{username}_{password}");
+
+
 
     });
-
     public DelegateCommand CommandGetNewToken => new DelegateCommand(GetNewToken);
 
     public DelegateCommand CommandApplyNewToken => new DelegateCommand(ApplyNewToken);
 
-    public LoginViewModel(IMediator mediator) : base(mediator)
+    AbpHttpClientBase HttpClient;
+    //Unity.IUnityContainer unityContainer;
+
+    public LoginViewModel(IMediator mediator, AbpHttpClientBase abpHttpClient) : base(mediator)
     {
+      HttpClient = abpHttpClient;
     }
 
     [Reactive]
@@ -37,12 +47,14 @@ namespace OPM.PageModels
 
     void GetNewToken()
     {
-
+      //ContainerExtensions
+     
     }
 
     void ApplyNewToken()
     {
-
+ 
+      //unityContainer.Resolve<>
     }
   }
 }
