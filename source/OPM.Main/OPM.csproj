@@ -76,10 +76,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Avalonia.Extensions.Controls\Avalonia.Extensions.Controls.csproj" />
     <ProjectReference Include="..\OPM.Core\OPM.Core.csproj" />
-    <ProjectReference Include="..\OPM.Modules.Calendar\OPM.Modules.Calendar.csproj" />
-    <ProjectReference Include="..\OPM.Modules.Contacts\OPM.Modules.Contacts.csproj" />
     <ProjectReference Include="..\OPM.Modules.Mail\OPM.Modules.Mail.csproj" />
-    <ProjectReference Include="..\OPM.Modules.Message\OPM.Modules.Message.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Update="appsettings.json">

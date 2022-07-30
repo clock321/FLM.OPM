@@ -2615,44 +2615,6 @@
           "bin/placeholder/OPM.MediatR.dll": {}
         }
       },
-      "OPM.Modules.Calendar/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Avalonia": "0.10.11",
-          "Avalonia.Desktop": "0.10.11",
-          "Avalonia.Diagnostics": "0.10.11",
-          "Avalonia.ReactiveUI": "0.10.11",
-          "OPM.Core": "1.0.0",
-          "Prism.Avalonia": "7.2.0.1430",
-          "Prism.Unity.Avalonia": "7.2.0.1430"
-        },
-        "compile": {
-          "bin/placeholder/OPM.Modules.Calendar.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/OPM.Modules.Calendar.dll": {}
-        }
-      },
-      "OPM.Modules.Contacts/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Avalonia": "0.10.11",
-          "Avalonia.Desktop": "0.10.11",
-          "Avalonia.Diagnostics": "0.10.11",
-          "Avalonia.ReactiveUI": "0.10.11",
-          "OPM.Core": "1.0.0",
-          "Prism.Avalonia": "7.2.0.1430",
-          "Prism.Unity.Avalonia": "7.2.0.1430"
-        },
-        "compile": {
-          "bin/placeholder/OPM.Modules.Contacts.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/OPM.Modules.Contacts.dll": {}
-        }
-      },
       "OPM.Modules.Mail/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2670,25 +2632,6 @@
         },
         "runtime": {
           "bin/placeholder/OPM.Modules.Mail.dll": {}
-        }
-      },
-      "OPM.Modules.Message/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Avalonia": "0.10.11",
-          "Avalonia.Desktop": "0.10.11",
-          "Avalonia.Diagnostics": "0.10.11",
-          "Avalonia.ReactiveUI": "0.10.11",
-          "OPM.Core": "1.0.0",
-          "Prism.Avalonia": "7.2.0.1430",
-          "Prism.Unity.Avalonia": "7.2.0.1430"
-        },
-        "compile": {
-          "bin/placeholder/OPM.Modules.Message.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/OPM.Modules.Message.dll": {}
         }
       },
       "OPM.Repository/1.0.0": {
@@ -9207,25 +9150,10 @@
       "path": "../OPM.MediatR/OPM.MediatR.csproj",
       "msbuildProject": "../OPM.MediatR/OPM.MediatR.csproj"
     },
-    "OPM.Modules.Calendar/1.0.0": {
-      "type": "project",
-      "path": "../OPM.Modules.Calendar/OPM.Modules.Calendar.csproj",
-      "msbuildProject": "../OPM.Modules.Calendar/OPM.Modules.Calendar.csproj"
-    },
-    "OPM.Modules.Contacts/1.0.0": {
-      "type": "project",
-      "path": "../OPM.Modules.Contacts/OPM.Modules.Contacts.csproj",
-      "msbuildProject": "../OPM.Modules.Contacts/OPM.Modules.Contacts.csproj"
-    },
     "OPM.Modules.Mail/1.0.0": {
       "type": "project",
       "path": "../OPM.Modules.Mail/OPM.Modules.Mail.csproj",
       "msbuildProject": "../OPM.Modules.Mail/OPM.Modules.Mail.csproj"
-    },
-    "OPM.Modules.Message/1.0.0": {
-      "type": "project",
-      "path": "../OPM.Modules.Message/OPM.Modules.Message.csproj",
-      "msbuildProject": "../OPM.Modules.Message/OPM.Modules.Message.csproj"
     },
     "OPM.Repository/1.0.0": {
       "type": "project",
@@ -9246,10 +9174,7 @@
       "Material.Icons >= 1.0.68",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.1",
       "OPM.Core >= 1.0.0",
-      "OPM.Modules.Calendar >= 1.0.0",
-      "OPM.Modules.Contacts >= 1.0.0",
       "OPM.Modules.Mail >= 1.0.0",
-      "OPM.Modules.Message >= 1.0.0",
       "Prism.Avalonia >= 7.2.0.1430",
       "Prism.Unity.Avalonia >= 7.2.0.1430",
       "Serilog >= 2.11.0",
@@ -9297,17 +9222,8 @@
             "D:\\ZybDev\\FLM.OPM\\source\\OPM.Core\\OPM.Core.csproj": {
               "projectPath": "D:\\ZybDev\\FLM.OPM\\source\\OPM.Core\\OPM.Core.csproj"
             },
-            "D:\\ZybDev\\FLM.OPM\\source\\OPM.Modules.Calendar\\OPM.Modules.Calendar.csproj": {
-              "projectPath": "D:\\ZybDev\\FLM.OPM\\source\\OPM.Modules.Calendar\\OPM.Modules.Calendar.csproj"
-            },
-            "D:\\ZybDev\\FLM.OPM\\source\\OPM.Modules.Contacts\\OPM.Modules.Contacts.csproj": {
-              "projectPath": "D:\\ZybDev\\FLM.OPM\\source\\OPM.Modules.Contacts\\OPM.Modules.Contacts.csproj"
-            },
             "D:\\ZybDev\\FLM.OPM\\source\\OPM.Modules.Mail\\OPM.Modules.Mail.csproj": {
               "projectPath": "D:\\ZybDev\\FLM.OPM\\source\\OPM.Modules.Mail\\OPM.Modules.Mail.csproj"
-            },
-            "D:\\ZybDev\\FLM.OPM\\source\\OPM.Modules.Message\\OPM.Modules.Message.csproj": {
-              "projectPath": "D:\\ZybDev\\FLM.OPM\\source\\OPM.Modules.Message\\OPM.Modules.Message.csproj"
             }
           }
         }
