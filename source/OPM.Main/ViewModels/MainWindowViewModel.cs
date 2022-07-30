@@ -9,7 +9,8 @@ using ReactiveUI;
 using System;
 using System.Reactive.Linq;
 using ReactiveUI.Fody.Helpers;
-
+using Avalonia;
+using Avalonia.Platform;
 
 namespace OPM.ViewModels
 {
@@ -22,7 +23,7 @@ namespace OPM.ViewModels
 
 
     //[Reactive]
-    public int SelectedTabIndex { get; set; }
+    public int SelectedTabIndex { get; set; } = 2;
 
 
     public DelegateCommand CommandShow => new DelegateCommand(() =>
@@ -35,6 +36,7 @@ namespace OPM.ViewModels
     public MainWindowViewModel(IMediator mediator) : base(mediator)
     {
 
+      var AssetLoader = AvaloniaLocator.Current.GetService<IAssetLoader>();
 
 
       this.WhenActivated(disposables =>

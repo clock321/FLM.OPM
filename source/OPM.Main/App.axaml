@@ -9,6 +9,11 @@
 	  <StyleInclude Source="/Styles/SideBar.xaml" />
 	  <StyleInclude Source="/Styles/MaterialIcon.axaml" />
 	  <StyleInclude Source="avares://Avalonia.Controls.DataGrid/Themes/Fluent.xaml"/>
+	  <!--<StyleInclude Source="avares://MaterialDesignThemes.Wpf/Themes/MaterialDesignTheme.Dark.xaml"/>-->
+	  <!--<StyleInclude Source="avares://Avalonia.Themes.Default/DefaultTheme.xaml"/>-->
+	  <!--<StyleInclude Source="avares://Avalonia.Themes.Default/Accents/BaseLight.xaml"/>-->
+	  <!--<StyleInclude Source="avares://Citrus.Avalonia/Magma.xaml"/>-->
   </prism:PrismApplication.Styles>
 </prism:PrismApplication>
 
+ 

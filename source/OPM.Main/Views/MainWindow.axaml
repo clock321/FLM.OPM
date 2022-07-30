@@ -19,33 +19,41 @@
 			  WindowStartupLocation="CenterScreen"
 			  Background="{x:Null}"
 			  Title="OPM"
-			  FontFamily="Microsoft YaHei,Simsun,苹方-简,宋体-简">
+			  FontFamily="Microsoft YaHei,Simsun,苹方-简,宋体-简"
+			  xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+			  >
 	<FluentWindow.Styles>
 		<Style Selector="TitleBar:fullscreen">
 			<Setter Property="Background"
 					Value="#7f000000" />
 		</Style>
 	</FluentWindow.Styles>
-
-	<Design.DataContext>
+	<Window.Resources>
+		<ResourceDictionary>
+			<ResourceDictionary.MergedDictionaries>
+				<!--<ResourceInclude Source='resm:/Themes/MaterialDesignTheme.Dark.xaml?assembly=MaterialDesignThemes.Wpf'/>-->
+			</ResourceDictionary.MergedDictionaries>
+		</ResourceDictionary>
+	</Window.Resources>
+	<!--<Design.DataContext>
 		<vm:MainWindowViewModel/>
-	</Design.DataContext>
+	</Design.DataContext>-->
 
 
 	<Grid
-		ColumnDefinitions="64,*"
+		ColumnDefinitions="*"
 		RowDefinitions="*">
 
-		<!--左侧导航栏-->
+		<!--左侧导航栏--><!--
 		<local:NavigationView
-			Grid.Column="0" DataContext="{Binding .}" />
+			Grid.Column="0" DataContext="{Binding .}" />-->
 
 		<Carousel
 			Grid.Column="1"
 			SelectedIndex="1">
 
 			<!--仪表盘-->
-			<local:DashboardView />
+			<!--<local:DashboardView />-->
 			
 			<!--主Tab导航页面-->
 			<local:MainTabView />

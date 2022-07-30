@@ -30,7 +30,7 @@
           Classes="header" />
       <TextBox Watermark="password" PasswordChar="*" Margin="0,17,0,0" Text="{Binding password}"  />
 
-      <Button Margin="0,50,0,0" Content="Show Dashboard" Command="{Binding CommandShowDashboard}"  FontFamily="{StaticResource PingFangFamily}" />
+      <Button Margin="0,50,0,0" Content="Show Dashboard" Name="testBtn" Command="{Binding CommandShowDashboard}"  FontFamily="{StaticResource PingFangFamily}" />
 
     </StackPanel>
     <Separator Background="BlanchedAlmond"></Separator>

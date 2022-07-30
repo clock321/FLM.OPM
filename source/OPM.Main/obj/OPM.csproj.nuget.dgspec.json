@@ -4,6 +4,88 @@
     "D:\\ZybDev\\FLM.OPM\\source\\OPM.Main\\OPM.csproj": {}
   },
   "projects": {
+    "D:\\ZybDev\\FLM.OPM\\source\\Avalonia.Extensions.Controls\\Avalonia.Extensions.Controls.csproj": {
+      "version": "1.8.5",
+      "restore": {
+        "projectUniqueName": "D:\\ZybDev\\FLM.OPM\\source\\Avalonia.Extensions.Controls\\Avalonia.Extensions.Controls.csproj",
+        "projectName": "Avalonia.Extensions.Controls",
+        "projectPath": "D:\\ZybDev\\FLM.OPM\\source\\Avalonia.Extensions.Controls\\Avalonia.Extensions.Controls.csproj",
+        "packagesPath": "C:\\Users\\zhaoyibo\\.nuget\\packages\\",
+        "outputPath": "D:\\ZybDev\\FLM.OPM\\source\\Avalonia.Extensions.Controls\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zhaoyibo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://devops.lonsid.cn:8080/nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/rrnNfUyTTdjE1bp8sQkVFSvSKF2AYTRwff7Qw3KSWyu1Y8c9Gz/api": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[0.10.16, )"
+            },
+            "Avalonia.Markup.Xaml.Loader": {
+              "target": "Package",
+              "version": "[0.10.16, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "PCLUntils": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[2.88.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\ZybDev\\FLM.OPM\\source\\OPM.Core\\OPM.Core.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -291,15 +373,18 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net6.0-windows7.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
             "projectReferences": {
+              "D:\\ZybDev\\FLM.OPM\\source\\Avalonia.Extensions.Controls\\Avalonia.Extensions.Controls.csproj": {
+                "projectPath": "D:\\ZybDev\\FLM.OPM\\source\\Avalonia.Extensions.Controls\\Avalonia.Extensions.Controls.csproj"
+              },
               "D:\\ZybDev\\FLM.OPM\\source\\OPM.Core\\OPM.Core.csproj": {
                 "projectPath": "D:\\ZybDev\\FLM.OPM\\source\\OPM.Core\\OPM.Core.csproj"
               },
@@ -325,8 +410,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
           "dependencies": {
             "Avalonia": {
               "target": "Package",
@@ -343,6 +428,18 @@
             "Avalonia.ReactiveUI": {
               "target": "Package",
               "version": "[0.10.16, )"
+            },
+            "Avalonia.ThemeManager": {
+              "target": "Package",
+              "version": "[0.10.8, )"
+            },
+            "Citrus.Avalonia": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Dove.Avalonia.Controls.Extensions.ChineseInputSupoort": {
+              "target": "Package",
+              "version": "[1.2.0, )"
             },
             "Material.Icons": {
               "target": "Package",
@@ -374,9 +471,17 @@
               "target": "Package",
               "version": "[5.0.0, )"
             },
+            "ShowMeTheXAML": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "Splat.Serilog": {
               "target": "Package",
               "version": "[13.1.63, )"
+            },
+            "VideoLAN.LibVLC.Windows": {
+              "target": "Package",
+              "version": "[3.0.17.4, )"
             }
           },
           "imports": [

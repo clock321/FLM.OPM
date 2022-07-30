@@ -1,4 +1,6 @@
 ﻿using Avalonia;
+using Avalonia.Extensions.Controls;
+using Avalonia.Extensions.Media;
 using Avalonia.ReactiveUI;
 using Serilog;
 using Splat.Serilog;
@@ -20,13 +22,16 @@ namespace OPM
         AllowEglInitialization = true
       })
       .UseSkia()
+      .UseDoveExtensions()
+      //.UseVideoView()
+      //.UseAudioControl()
+      .UseChineseInputSupport()
       .UseReactiveUI()
       .LogToTrace();
 
     public static void Main(string[] args)
     {
       Log.Logger = new LoggerConfiguration()
-        .WriteTo.Console()
         .WriteTo.File("Logs/log-.txt", rollingInterval: RollingInterval.Day)
         .CreateLogger();
       Splat.Locator.CurrentMutable.UseSerilogFullLogger();

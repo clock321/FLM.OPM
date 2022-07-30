@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <Version>1.8.5</Version>
+        <Authors>michael_eddy</Authors>
+        <LangVersion>latest</LangVersion>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <Product>Avalonia.Extensions.Controls</Product>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <RootNamespace>Avalonia.Extensions</RootNamespace>
+        <EnforceCodeStyleInBuild>false</EnforceCodeStyleInBuild>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/michael-eddy/Avalonia.Extensions</PackageProjectUrl>
+    </PropertyGroup>
+    <ItemGroup>
+        <None Remove="Styles\Xaml\readme.txt" />
+        <AvaloniaResource Include="Styles\Xaml\*.xml" />
+		<AvaloniaResource Include="Styles\Xaml\*.xaml" />
+        <AvaloniaResource Include="Assets\Fonts\SegMDL2.ttf" />
+        <None Include="..\.editorconfig" Link=".editorconfig" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="PCLUntils" Version="1.0.4" />
+        <PackageReference Include="Avalonia" Version="0.10.16" />
+        <PackageReference Include="SkiaSharp" Version="2.88.0" />
+        <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+        <PackageReference Include="Avalonia.Markup.Xaml.Loader" Version="0.10.16" />
+    </ItemGroup>
+</Project>

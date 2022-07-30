@@ -32,6 +32,8 @@ using Unity.Lifetime;
 using OPM.Data.Dto;
 using OPM.Pages;
 using OPM.PageModels;
+using Avalonia.Platform;
+using Avalonia.Extensions.Controls;
 
 namespace OPM
 {
@@ -53,6 +55,8 @@ namespace OPM
 
       //Ö÷Ìâ
       Styles.Add(new DarkTheme());
+
+
       base.Initialize();
     }
 
@@ -115,7 +119,8 @@ namespace OPM
         //var app = provider.GetService<Avalonia.Application>();
         //var builder = AppBuilder.Configure(app);
       };
-     
+
+      AvaloniaLocator.CurrentMutable.Bind<IFontManagerImpl>().ToConstant(new FontManagerImpl());
 
       //×¢²áMediatR
       var assembly = AppDomain.CurrentDomain.Load("OPM.MediatR");
